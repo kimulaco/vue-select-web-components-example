@@ -1,4 +1,4 @@
-# vue2-web-components-example
+# vue-select-web-components-example
 
 ## Project setup
 ```
