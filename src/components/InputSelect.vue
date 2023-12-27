@@ -1,6 +1,11 @@
 <script>
+import VueSelect from 'vue-select'
+
 export default {
   name: 'InputSelect',
+  components: {
+    VueSelect
+  },
   props: {
     label: {
       type: String,
@@ -20,25 +25,27 @@ export default {
 
 <template>
   <div>
-    <label :for="id" class="label">{{ label }}</label>
-    <div>
-      <select :name="name" :id="id">
-        <option value="0">0</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-      </select>
-    </div>
+    <div>{{ label }}</div>
+    <VueSelect
+      :options="[
+        { label: '0', id: 0 },
+        { label: '1', id: 1 },
+        { label: '2', id: 2 },
+        { label: '3', id: 3 },
+        { label: '4', id: 4 },
+        { label: '5', id: 5 },
+        { label: '6', id: 6 },
+        { label: '7', id: 7 },
+        { label: '8', id: 8 },
+        { label: '9', id: 9 }
+      ]"
+    />
   </div>
 </template>
 
 <style scoped>
+@import 'vue-select/dist/vue-select.css';
+
 .label {
   font-size: 18px;
 }

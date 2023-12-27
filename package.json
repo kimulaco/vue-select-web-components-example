@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.34.0",
-    "vue": "^2.7.16"
+    "vue": "^2.7.16",
+    "vue-select": "^3.20.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.8",
