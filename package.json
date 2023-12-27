@@ -5,7 +5,8 @@
   "packageManager": "pnpm@8.6.12",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target wc --name wc-input-select src/components/InputSelect.vue"
+    "build": "vue-cli-service build --target wc --name wc-input-select src/components/InputSelect.vue",
+    "demo": "serve dist -p 4000"
   },
   "dependencies": {
     "core-js": "^3.34.0",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
+    "serve": "^14.2.1",
     "vue-template-compiler": "^2.7.16"
   }
 }
