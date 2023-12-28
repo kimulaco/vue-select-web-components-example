@@ -44,7 +44,7 @@ export default {
 </template>
 
 <style scoped>
-@import 'vue-select/dist/vue-select.css';
+@import '@/assets/css/vue-select.css';
 
 .label {
   font-size: 18px;
