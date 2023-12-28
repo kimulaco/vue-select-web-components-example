@@ -1,5 +1,7 @@
 # vue-select-web-components-example
 
+**Demo:** https://kimulaco.github.io/vue-select-web-components-example/demo.html
+
 ## Project setup
 ```
 pnpm install
